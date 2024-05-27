@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.dm-sans-<uniquifier> {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans";
+}
+
+.infoTop {
+  background-color: #285B52;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 10vw;
+  font-size: 2vw;
+  height: 3vh;
+  justify-content: flex-start;
+  align-items: center
+}
+
+.infoTop a {
+  color: #fff;
+  margin-left: 3vw;
+  font-weight: 600;
+}
+
+.infoTop img {
+  margin-left: 1vw;
+  width: 1.5vh;
+  margin: 0.75vh 0 0.75vh 1vw;
+}
+
+.ndinfoTopImg {
+  margin-left: 9vw;
+}
+
+
+.svgininfotop {
+  display: flex;
+  align-items: center;
+}
+
+.nav{
+  /*background-color: red;*/
+  padding: 0 3vw;
+  height: 5vh;
+  z-index: 3000;
+}
+
+
+.nav ul img {
+  width: 3vw;
+  margin: 0 0;
+}
+
+.nav ul li {
+  font-size: 5vw;
+  color: #000;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav #svgNav {
+  margin: 0 0 0 34vw;
+}
+
+.nav .navReponsiveBtn {
+  margin-left: 8vw;
+}
+
+.nav .onClickNavResponsiveBtn {
+  width: 100%;
+  height: 94vh;
+  background-color: #fff;
+  z-index: 1;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0%;
+  bottom: 0;
+  display: none;
+}
+
+.nav .differencateNav {
+  width: 0.04px;
+  height: 2vh;
+  background-color: #111;
+  margin-left: 2vw;
+}
+
+.nav #closeNav {
+  display: none;
+}
+
+.nav .contactSales {
+  margin-left: 2vw;
+}
+
+.nav .logIn {
+  margin-left: 2vw;
+}
+
+.nav .GetStartedBtn {
+  width: 100px;
+  height: 30px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-left: 2vw;
+  border-radius: 3px;
+}
+
+
+#main {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20vh 5vw 0 5vw;
+  flex-direction: column;
+}
+
+.para-textButton {
+  display: flex;
+  flex-direction: column;
+}
+
+#main h1 {
+  font-size: 9vw;
+  font-weight: 600;
+  text-align: center;
+}
+
+#main p {
+  text-align: center;
+  justify-content: center;
+  margin-top: 3vh;
+  font-size: 2.5vw;
+}
+
+.twoBtn {
+  display: flex;
+  justify-content: center;
+}
+
+#main .btn {
+  width: 150px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 3vh 0 0 0;
+  font-weight: 700;
+}
+
+#main .btn2 {
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 3vh 0 0 3vw;
+  font-weight: 700;
+}
+
+img {
+  width: 90vw;
+  margin-top: 2vh;
+}
+
+.extra-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  font-size: 3vw;
+}
+
+.extra-text h5 {
+  font-weight: 500;
+}
+
+.imagesInExtraText {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagesInExtraText img {
+  width: 20vw;
+  margin: 3vw 1vw 0 1vw;
+}
