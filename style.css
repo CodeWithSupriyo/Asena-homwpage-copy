@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 .dm-sans-<uniquifier> {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -47,7 +47,7 @@
   align-items: center;
 }
 
-.nav{
+.nav {
   /*background-color: red;*/
   padding: 0 3vw;
   height: 5vh;
@@ -132,10 +132,9 @@
 
 
 #main {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   display: flex;
   justify-content: center;
-  padding: 20vh 5vw 0 5vw;
+  padding: 6vh 5vw 0 5vw;
   flex-direction: column;
 }
 
@@ -214,4 +213,146 @@ img {
 .imagesInExtraText img {
   width: 20vw;
   margin: 3vw 1vw 0 1vw;
+}
+
+
+#main2 {
+  background-color: #F5F3F3;
+  width: 100%;
+  height: 50vh;
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#main2 h1 {
+  margin: 5vh 5vw 1vh 5vw;
+  font-size: 6.5vw;
+  font-weight: 600;
+}
+
+#main2 .infoandmainelementInPage2 {
+  flex-direction: column;
+}
+
+#main2 .infoandmainelementInPage2 .infoBtnParent {
+  display: flex;
+  flex-direction: row;
+}
+
+#main2 .infoandmainelementInPage2 .infoBtnParent .infoBtnPage2no1 {
+  width: 15vw;
+  height: 3vh;
+  background: #FBDDE0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-left: 5vw;
+  font-size: 2.7vw;
+}
+
+#main2 .infoandmainelementInPage2 .infoBtnParent .infoBtnPage2no2 {
+  width: 14vw;
+  height: 3vh;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 0.5px solid #000;
+  margin-left: 3vw;
+  font-size: 2.7vw;
+  flex-direction: column;
+}
+
+#main2 .infoandmainelementInPage2 .infoBtnParent .infoBtnPage2no3 {
+  width: 8vw;
+  height: 3vh;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 0.5px solid #000;
+  margin-left: 3vw;
+  font-size: 2.7vw;
+}
+
+#main2 .infoandmainelementInPage2 .infoBtnParent .infoBtnPage2no4 {
+  width: 15vw;
+  height: 3vh;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 0.5px solid #000;
+  margin-left: 3vw;
+  font-size: 2.7vw;
+}
+
+#main2 .infoandmainelementInPage2 .infoBtnParent .infoBtnPage2no5 {
+  width: 20vw;
+  height: 3vh;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 0.5px solid #000;
+  margin-left: 3vw;
+  font-size: 2.7vw;
+}
+
+#main2 .moreInfoinPage2 {
+  display: flex;
+}
+
+#main2 .moreInfoinPage2 .imgPage2No1 img {
+  width: 50vw;
+  margin-left: 3vw;
+}
+
+#main2 .moreInfoinPage2 .textPage2No1 .mainTextPage2No1 h1 {
+  font-size: 4.4vw;
+  font-weight: 500;
+  margin: 2vh 4vw;
+}
+
+#main2 .paraTextInPage2No1 {
+  display: flex;
+  margin: 2vh 4vw 0vh 4vw;
+  line-height: 1.5vh;
+}
+
+#main2 .paraTextInPage2No1 .dotPage2 {
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  background-color: #000;
+  margin-top: 0.5vh;
+}
+
+#main2 .paraTextInPage2No1 p {
+  font-size: 2.5vw;
+  margin-left: 1.5vw
+}
+
+#main2 .page2BtnNo1 {
+  display: flex;
+  justify-content: center;
+  margin-left: 27vw;
+}
+
+#main2 .page2BtnNo1 .btnPage2No1 {
+  width: 15vw;
+  height: 3vh;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -7vh;
 }

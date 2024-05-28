@@ -1,4 +1,3 @@
-
 const closeInfoTop = document.querySelector('.ndinfoTopImg')
 
 const infoTop = document.querySelector('.infoTop')
@@ -15,10 +14,10 @@ let close = 0
 
 navResponsiveBtn.addEventListener("click", function() {
   if (close === 0) {
-  onClickNavResponsiveBtn.style.display = "block"
-  closeNav.style.display = "block"
-  navResponsiveBtn.style.display = "none"
-  close = 1
+    onClickNavResponsiveBtn.style.display = "block"
+    closeNav.style.display = "block"
+    navResponsiveBtn.style.display = "none"
+    close = 1
   }
 })
 
@@ -30,5 +29,3 @@ closeNav.addEventListener("click", function() {
     close = 0
   }
 })
-
-
