@@ -101,10 +101,10 @@ btnPage2No2.addEventListener("click", function() {
   btnPage2No2.style.background = "#FBDDE0"
   btnPage2No2.style.border = "none"
   btnBottomPage2No1.style.display = "none"
-btnBottomPage2No2.style.display = "flex"
-btnBottomPage2No3.style.display = "none"
-btnBottomPage2No4.style.display = "none"
-btnBottomPage2No5.style.display = "none"
+  btnBottomPage2No2.style.display = "flex"
+  btnBottomPage2No3.style.display = "none"
+  btnBottomPage2No4.style.display = "none"
+  btnBottomPage2No5.style.display = "none"
 })
 
 btnPage2No3.addEventListener("click", function() {
@@ -126,10 +126,10 @@ btnPage2No3.addEventListener("click", function() {
   btnPage2No3.style.background = "#FBDDE0"
   btnPage2No3.style.border = "none"
   btnBottomPage2No1.style.display = "none"
-btnBottomPage2No2.style.display = "none"
-btnBottomPage2No3.style.display = "flex"
-btnBottomPage2No4.style.display = "none"
-btnBottomPage2No5.style.display = "none"
+  btnBottomPage2No2.style.display = "none"
+  btnBottomPage2No3.style.display = "flex"
+  btnBottomPage2No4.style.display = "none"
+  btnBottomPage2No5.style.display = "none"
 })
 
 btnPage2No4.addEventListener("click", function() {
@@ -151,10 +151,10 @@ btnPage2No4.addEventListener("click", function() {
   btnPage2No4.style.background = "#FBDDE0"
   btnPage2No4.style.border = "none"
   btnBottomPage2No1.style.display = "none"
-btnBottomPage2No2.style.display = "none"
-btnBottomPage2No3.style.display = "none"
-btnBottomPage2No4.style.display = "flex"
-btnBottomPage2No5.style.display = "none"
+  btnBottomPage2No2.style.display = "none"
+  btnBottomPage2No3.style.display = "none"
+  btnBottomPage2No4.style.display = "flex"
+  btnBottomPage2No5.style.display = "none"
 })
 
 btnPage2No5.addEventListener("click", function() {
@@ -174,8 +174,8 @@ btnPage2No5.addEventListener("click", function() {
   btnPage2No5.style.background = "#FBDDE0"
   btnPage2No5.style.border = "none"
   btnBottomPage2No1.style.display = "none"
-btnBottomPage2No2.style.display = "none"
-btnBottomPage2No3.style.display = "none"
-btnBottomPage2No4.style.display = "none"
-btnBottomPage2No5.style.display = "flex"
+  btnBottomPage2No2.style.display = "none"
+  btnBottomPage2No3.style.display = "none"
+  btnBottomPage2No4.style.display = "none"
+  btnBottomPage2No5.style.display = "flex"
 })
